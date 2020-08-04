@@ -1,0 +1,173 @@
+div#intervace{
+  width: 900px;
+  background-color: #ffffff;
+  margin: -20px auto 0px auto;  
+  padding: 10px;
+}
+.firstHeader{
+  position: relative;
+  width: 450px ;
+  margin: 0 0 0 100px;
+  background-color:#00796b;
+  height: 150px;
+  border-radius: 5% 45% 5% 45%;
+  left: 280px;
+}
+
+.secondHeader{  
+  position: relative;
+  width: 450px;
+  margin: 0 auto;
+  background-color: #009688;
+  height: 150px;
+  border-radius: 50% 5% 50% 5%;
+  right: 370px;
+}
+.principal{
+  display: block;
+  width: 350px;
+  float: left;
+  border-right: 1px black dotted;
+  border-width: thick;
+  padding-right: 20px;
+  margin: 0 40px 20px;
+  text-align: justify;  
+  height: 850px;
+}
+.imgPersonal {
+  width: 40%;
+  border-radius: 50%;
+  border: solid 5px #00796b;
+  padding: 5px;
+  margin-top: -25px;
+  position: relative;
+  left: 80px;
+}
+.tituloH1{
+  text-align: center;
+  font-size: 2em;    
+  font-weight: bold;
+  height: 50px;
+  padding: 15px 0 0
+}
+.indent{
+  text-indent: 50px;
+}
+
+.tituloPrincipal{
+  color: black;
+  text-align: center;
+  font-size: 1.5em;    
+  font-weight: bold;
+  height: 30px;
+  padding: 15px 0 0
+}
+.tituloLateral {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 1em 0 1em;
+  clear: left;
+  background-color: #00bfa5;
+  color: white;
+  padding: 1%;
+  border-radius: 50% 0% 50% 0;
+}
+
+
+
+.material-icons{
+  margin: 3px 10px 0 0;
+  color: #ffffff;
+  background-color:#1de9b6 ;
+  border-radius: 50% 0% 50% 0;
+  padding: 1%;
+}
+a{
+  text-decoration: none;
+  margin: 0 0 0 -20px;
+}
+
+
+aside#lateral{
+  display: block;
+  float: right;
+  margin: 10px 100px 150px -1px;
+  width: 320px;
+  height: 734.266px;
+}
+
+#titulosCourses{
+  font-weight: bold;
+
+}
+.year{
+  margin: 0 0 20px;
+}
+
+.break{
+  margin: 0 0 0 60px;
+}
+
+.year h3{
+  float: left;
+  margin: 10px;
+  background-color:#1de9b6 ;
+  color: white;
+  padding: 2%;
+  border-radius: 50% 0;
+  font-weight: bold;
+  
+}
+.yearExperience h3{
+  float: left;  
+  background-color:#1de9b6 ;
+  color: white;
+  padding: 2%;
+  border-radius: 50% 0;
+  font-weight: bold;
+  
+}
+
+.yearExperience{
+  margin: 0 0 20px;
+  
+}
+
+.yearExperience p{
+ margin: 0 0 0 60px;
+  
+}
+.courses{  
+  margin-left: 65px;
+}
+
+.firstFooter{
+  clear: both;
+  position: relative;  
+  background-color:#00796b;
+  height: 150px;
+  border-radius: 45% 5% 45% 5%;
+  left: 280px;
+  width: 450px ;
+  margin: 0 0 0 100px;
+}
+
+.secondFooter{
+  clear: both;
+  position: relative;   
+  background-color: #009688;
+  height: 150px;
+  border-radius: 5% 50% 5% 50%;
+  right: 370px;
+  width: 450px;
+}
+
+
+@media screen and (max-width: 480px) {
+  #intervace {
+      width: auto;
+  }
+
+  
+  
+}
